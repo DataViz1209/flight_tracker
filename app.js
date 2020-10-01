@@ -1,3 +1,5 @@
 console.log('test');
-console.log('data/sample.json');
+d3.json('data/sample.json').then(function(data){
+  console.log(data);
+};
 console.log('test2');
